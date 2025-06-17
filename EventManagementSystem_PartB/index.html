@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Event Management System</h1>
+    <form id="eventForm">
+        <input type="hidden" id="eventId">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="description" placeholder="Description">
+        <input type="date" id="date" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="number" id="ticketPrice" placeholder="Ticket Price" required>
+        <input type="number" id="expectedParticipants" placeholder="Expected Participants" required>
+        <input type="number" id="numSessions" placeholder="Number of Sessions" required>
+        <button type="submit">Save Event</button>
+    </form>
+    <div id="message"></div>
+    <h2>Events List</h2>
+    <ul id="eventsList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>

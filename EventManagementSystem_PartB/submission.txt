@@ -1,0 +1,11 @@
+
+ Event Management System – חלק ב
+
+ קבצים מצורפים:
+- index.html / style.css / script.js – צד לקוח
+- Create_EventManagementDB_EXTENDED.sql – סקריפט SQL
+- Postman collection – בדיקת קריאות API
+- functionality.txt – תיעוד הפונקציות החדשות
+- submission.txt – קובץ הגשה
+
+GitHub: https://github.com/boren1009/EventmanagementSystemApiExtended

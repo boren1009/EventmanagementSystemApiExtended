@@ -1,0 +1,10 @@
+
+פונקציונליות נוספת שהוספתי:
+1. קישור אוטומטי ל-Google Maps לפי כתובת
+2. חישוב רווח צפוי לפי מחיר כרטיס * משתתפים
+3. שדה numSessions לכל אירוע
+
+שדות חדשים:
+- ticketPrice (decimal)
+- expectedParticipants (int)
+- numSessions (int)
